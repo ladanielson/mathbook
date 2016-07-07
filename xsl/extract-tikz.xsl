@@ -60,6 +60,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
         <xsl:text>\usepackage{tikz}&#xa;</xsl:text>
         <xsl:text>\usetikzlibrary{backgrounds}&#xa;</xsl:text>
         <xsl:text>\usetikzlibrary{arrows,matrix}&#xa;</xsl:text>
+        <xsl:text>\usetikzlibrary{decorations}&#xa;</xsl:text>
+        <xsl:text>\usetikzlibrary{snakes}&#xa;</xsl:text>
+        <xsl:text>\usetikzlibrary{patterns}&#xa;</xsl:text>
+        <xsl:text>\usetikzlibrary{shapes}&#xa;</xsl:text>
         <xsl:text>\begin{document}&#xa;</xsl:text>
         <xsl:value-of select="."/>
         <xsl:text>\end{document}&#xa;</xsl:text>
